@@ -1,0 +1,67 @@
+.navbar {
+    border-bottom: #c0392b 3px solid;
+    opacity: .7;
+}
+
+.navbar-brand-logo {
+    box-sizing: border-box;
+    width: 5%;
+    float: left;
+}
+
+#Home {
+    padding-top: 10%;
+    background: url(../img/fondoPaisaje.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}
+
+.Info-section {
+    background: url(../img/fondo3.jpeg) no-repeat center top;
+    background-size: cover;
+    color: #ffff;
+}
+
+.who-section {
+    background-color: rgb(215, 175, 252);
+}
+
+.social-section {
+    background-color: rgb(71, 193, 209);
+}
+
+
+.social-section {
+    text-align: center;
+}
+
+.social-section li {
+    display: inline;
+}
+
+.social-section i {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5%;
+    color: #fff;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.home-inner {
+    padding: 150px;
+}
+
+@media (max-width: 992px) {
+    .home-inner {
+        padding-top: 70px;
+    }
+}
