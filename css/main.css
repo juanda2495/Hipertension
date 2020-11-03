@@ -1,5 +1,17 @@
 body {
     font-family: 'Overlock', cursive;
+    font-size: 120%;
+    
+}
+
+body h3 {
+    font-size: 200%;
+    padding-top: 6%;
+    padding-bottom: 3%;
+}
+
+body h2 {
+    padding-top: 3%;
 }
 
 .navbar {
@@ -20,6 +32,11 @@ body {
     background-size: cover;
     background-attachment: fixed;
     color: black;
+    opacity: .7;
+}
+
+#Home img {
+    max-width: 120%;
 }
 
 .Info-section {
@@ -28,27 +45,63 @@ body {
     color: #ffff;
 }
 
-.who-section {
-    background-color: rgb(215, 175, 252);
+.Diag-section {
+    background: url(../img/diagnostico.jpg) no-repeat center top;
+    background-size: cover;
+    min-height: 100vh;
+    color: #000000;
+}
+
+.Medicion-section img {
+    max-width: 100%;
+}
+
+.Control-section img {
+    max-width: 100%;
+}
+
+.Medicamentos-section {
+    background: url(../img/medicamentos.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    color: #000000;
+
+}
+
+.Medicamentos-section i.app {
+    font-size: 200%;
+    margin: 1%;
+    padding: 5px;
+}
+
+.Hacer-section img {
+    max-width: 100%;
+}
+
+.Sintomas-section {
+    background: url(../img/sintomas.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+    color: #000000;
+}
+
+.Sintomas-section p, h4 {
+    padding-top: 5%;
 }
 
 .social-section {
-    background-color: rgb(71, 193, 209);
+    background-color: #fddbc7;
 }
-
 
 .social-section {
     text-align: center;
 }
-
 .social-section li {
     display: inline;
 }
 
 .social-section i {
-    font-size: 200%;
-    margin: 1%;
-    padding: 5%;
+    font-size: 500%;
     color: #fff;
 }
 
@@ -70,6 +123,10 @@ body {
     }
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    text-align: center;
 }
